@@ -159,6 +159,8 @@ const Myprofile =async (req,res)=>{
         res.send({
             success: true,
             message: 'Profile fetched successfully',
+            statusCode: 200,
+            data: exist
         })
     } catch (error) {
         // console.log(error)
