@@ -160,7 +160,7 @@ const Myprofile =async (req,res)=>{
             success: true,
             message: 'Profile fetched successfully',
             statusCode: 200,
-            data: exist
+            data: exist,
         })
     } catch (error) {
         // console.log(error)
